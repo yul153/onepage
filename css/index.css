@@ -220,13 +220,6 @@ input[name=tabmenu] {
   transition: 0.35s;
 }
 
-input[id=tab1]:checked~.slide1,
-input[id=tab2]:checked~.slide2,
-input[id=tab3]:checked~.slide3 {
-  opacity: 1;
-  left: 0;
-}
-
 input[id=tab1]:checked~.btn label[for=tab1],
 input[id=tab2]:checked~.btn label[for=tab2],
 input[id=tab3]:checked~.btn label[for=tab3] {
